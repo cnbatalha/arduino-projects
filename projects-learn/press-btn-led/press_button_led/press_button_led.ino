@@ -14,6 +14,9 @@ void loop()
   // capturando estado do botao
   estadoBotao = digitalRead(botao);
   
+  digitalWrite(ledPin, estadoBotao);
+  
+  /*
   if (estadoBotao == HIGH)
   {
     digitalWrite(ledPin, HIGH);
@@ -22,4 +25,5 @@ void loop()
   {
     digitalWrite(ledPin, LOW);
   }
+  */
 }
