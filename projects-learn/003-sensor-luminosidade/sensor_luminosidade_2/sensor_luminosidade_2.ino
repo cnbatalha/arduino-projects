@@ -15,7 +15,7 @@ void loop()
   valorLido = analogRead(LDR);
   Serial.print("valor lido");
   Serial.println(valorLido);
-  delay(500);
+  delay(200);
   
   if ( valorLido < 400)
   {
