@@ -38,6 +38,12 @@ void setup()
   // sets the ledPin to be an output
   pinMode(speakerPin, OUTPUT);
   //sets the speakerPin to be an output
+  lcd.begin(16,2);
+  lcd.setCursor(0,0);
+  lcd.print("  Que a forca ");
+  lcd.setCursor(0,1);
+  lcd.print("esteja com voce");
+  
 }
  
 void loop()    // run over and over again
