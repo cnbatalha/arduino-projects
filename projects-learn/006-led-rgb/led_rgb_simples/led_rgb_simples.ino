@@ -30,7 +30,7 @@ void loop()
     delay(50);
   }
   
-  for (valorRed = 0; valorRed < 255; valorRed+=5)
+  for (valorRed = 0; valorRed < 255; valorRed-=5)
   {
     analogWrite(R, valorRed);
     delay(50);
